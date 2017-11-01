@@ -1,0 +1,23 @@
+input for Player 1 name - p1name
+input for Player 2 name - p2name
+
+ROLL
+  returns number 1-6
+
+  if roll = 1
+    tempScore = 0
+    end turn/toggle player
+  if roll > 1
+    add to tempScore
+    continue turn
+
+HOLD
+  add tempScore to totalScore
+  checks for winning condition
+  end turn/toggle player
+
+winning condition check
+  if totalScore >= 100,
+    player wins
+  else,
+    next player turn
