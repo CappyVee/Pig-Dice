@@ -5,6 +5,7 @@
     <script src="js/scripts.js"></script>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet">
     <meta charset="utf-8">
     <title>piggu daisu</title>
   </head>
@@ -16,18 +17,45 @@
       </div>
         <form id="player-names">
           <div class="pre-game">
-            <div class="form-group player1">
-              <label for="p1">Enter Player Name: </label>
-              <br>
-              <input type="text" name="p1" id="p1" placeholder="enter player 1 name">
+
+            <div class="row">
+              <div class="col-md-1">
+              </div>
+              <div class="col-md-4">
+                <div class="form-group player1">
+                  <label for="p1">Enter Player Name: </label>
+                  <br>
+                  <input type="text" name="p1" id="p1" placeholder="enter player 1 name">
+                </div>
+              </div>
+              <div class="col-md-2">
+              </div>
+              <div class="col-md-4">
+                <div class="form-group player2">
+                  <label for="p2">Enter Player Name: </label>
+                  <br>
+                  <input type="text" name="p2" id="p2" placeholder="enter player 2 name">
+                </div>
+              </div>
+              <div class="col-md-1">
+              </div>
             </div>
-            <div class="form-group player2">
-              <label for="p2">Enter Player Name: </label>
-              <br>
-              <input type="text" name="p2" id="p2" placeholder="enter player 2 name">
+            <div class="row">
+              <div class="col-4">
+              </div>
+              <div class="col-4">
+                <div class="card">
+                  <button type="submit" name="button" id="submit-names-btn" class="btn">Let's Play!</button>
+                </div>
+              </div>
+              <div class="col-4">
+              </div>
             </div>
-            <button type="submit" name="button" id="submit-names-btn">Let's Play!</button>
-          </div>
+
+
+
+
+          </div> <!--pre-game-->
         </form>
 
       <div class="row game-start">
@@ -44,8 +72,8 @@
           <span class="p2-tempscore"></span>
           <br>
         </div> <!--col2 of row2-->
-        <button type="submit" name="roll" id="roll-btn">roll</button>
-        <button type="submit" name="hold" id="hold-btn">hold</button>
+        <button type="submit" name="roll" id="roll-btn" class="btn">roll</button>
+        <button type="submit" name="hold" id="hold-btn" class="btn">hold</button>
       </div> <!--row2-->
 
     </div> <!--container div-->

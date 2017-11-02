@@ -1,9 +1,17 @@
+body {
+  font-family: 'Waiting for the Sunrise', cursive;
+}
+
+.btn {
+  text-align: center;
+}
+
 .game-start {
   display: none;
 }
 
 .jumbotron {
-  background-color: #999999;
+  background-color: #aaaaaa;
   text-align: center;
 }
 
