@@ -3,12 +3,41 @@
   <head>
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
-    <link href="css/bootstrap.css" rel="stylesheets" type="text/css">
-    <link href="css/styles.css" rel="stylesheets" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
     <title>piggu daisu</title>
   </head>
   <body>
-    
+    <div class="container">
+      <div class="jumbotron">
+        <h1>PIGGU DAISU</h1>
+      </div>
+        <form id="player-names">
+          <div class="pre-game">
+            <div class="form-group">
+              <label for="p1">Enter Player Name: </label>
+              <br>
+              <input type="text" name="p1" id="p1" placeholder="enter player 1 name">
+            </div>
+            <div class="form-group">
+              <label for="p2">Enter Player Name: </label>
+              <br>
+              <input type="text" name="p2" id="p2" placeholder="enter player 2 name">
+            </div>
+            <button type="submit" name="button" id="submit-names-btn">Let's Play!</button>
+          </div>
+        </form>
+      <div class="row game-start">
+        <div class="col-lg-6">
+          <span class="p1-name-display"></span><span class="p1-score"></span>
+        </div> <!--col1 of row2-->
+        <div class="col-lg-6">
+          <span class="p1-name-display"></span><span class="p2-score"></span>
+        </div> <!--col2 of row2-->
+        <button type="submit" name="roll" id="roll-btn">roll</button>
+        <button type="submit" name="hold" id="hold-btn">hold</button>
+      </div> <!--row2-->
+    </div> <!--container div-->
   </body>
 </html>

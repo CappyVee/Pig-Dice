@@ -1,12 +1,12 @@
-input for Player 1 name - p1name
-input for Player 2 name - p2name
+  input for Player 1 name - p1name
+  input for Player 2 name - p2name
 
 ROLL
   returns number 1-6
 
   if roll = 1
     tempScore = 0
-    end turn/toggle player
+    playerTurn = !playerTurn
   if roll > 1
     add to tempScore
     continue turn
@@ -14,10 +14,18 @@ ROLL
 HOLD
   add tempScore to totalScore
   checks for winning condition
-  end turn/toggle player
+  playerTurn = !playerTurn
 
 winning condition check
   if totalScore >= 100,
     player wins
-  else,
-    next player turn
+
+
+
+LIST OF HTML NECESSITIES
+  Player names form
+    player1 name input
+    player2 name input
+    name submit/play button - will hide the form, show game
+"roll" button
+"hold" button
