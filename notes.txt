@@ -22,10 +22,6 @@ winning condition check
 
 
 
-LIST OF HTML NECESSITIES
-  Player names form
-    player1 name input
-    player2 name input
-    name submit/play button - will hide the form, show game
-"roll" button
-"hold" button
+TO-DO LIST
+Switching players
+Resetting the page after a victory!
